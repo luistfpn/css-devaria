@@ -2,7 +2,6 @@ header .link-logo {
     display: block;
     padding: 20px 25px;
     border-bottom: 1px solid #25cbd3;
-
 }
 
 header nav ul {
@@ -16,7 +15,6 @@ header nav ul li {
 
 header nav ul li:not(:last-child) {
     margin-right: 15px;
-
 }
 
 .menu li a {
@@ -24,13 +22,12 @@ header nav ul li:not(:last-child) {
     text-decoration: none;
 }
 
-
 .menu li a:hover {
-    color: #2bd42d;
+    color: #3bd42d;
     text-decoration: underline;
 }
 
-@media screen and   (min-width:992px) {
+@media screen and (min-width: 992px) {
     header {
         position: relative;
     }
